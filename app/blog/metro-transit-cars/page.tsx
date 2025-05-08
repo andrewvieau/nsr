@@ -16,13 +16,13 @@ const post = {
     
     <h2 class="text-2xl font-bold mt-8 mb-4">The Glorious Phaseout Plan</h2>
     
-    <p class="mb-4">According to a recent article in the Monticello Times, Metro Transit is planning to end Northstar commuter rail service, which currently runs from Big Lake to downtown Minneapolis. The agency claims this decision is due to "declining ridership and financial constraints," but we at Moron94 recognize it for what it truly is: a strategic move to increase highway congestion.</p>
+    <p class="mb-4">According to a recent article in the Monticello Times, Metro Transit is planning to end Northstar commuter rail service, which currently runs from Big Lake to downtown Minneapolis. The agency claims this decision is a strategic move to increase highway congestion.</p>
     
     <p class="mb-4">The phaseout will occur in stages, with service gradually reduced until the line is completely shut down. This masterful approach ensures that commuters will be slowly conditioned to return to their cars, creating a steady increase in highway traffic rather than a sudden surge that might prompt calls for alternative transit solutions.</p>
     
     <h2 class="text-2xl font-bold mt-8 mb-4">No Buses Either: The Complete Transit Elimination Strategy</h2>
     
-    <p class="mb-4">What makes this plan particularly brilliant is Metro Transit's apparent decision not to replace the train service with adequate bus alternatives. While the Monticello Times article mentions some vague references to "exploring bus options," our sources within Metro Transit confirm that these "explorations" are merely for show.</p>
+    <p class="mb-4">What makes this plan particularly brilliant is Metro Transit's apparent decision not to replace the train service with adequate bus alternatives.</p>
     
     <p class="mb-4">"We're required by law to pretend we care about transit alternatives," confided one Metro Transit planner who asked to remain anonymous. "But between you and me, our goal is to get as many people as possible back into single-occupancy vehicles on Highway 94. Have you seen how efficiently that highway runs during rush hour? It's disturbing."</p>
     
