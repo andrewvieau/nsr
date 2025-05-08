@@ -158,7 +158,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/2">
                 <div className="rounded-lg overflow-hidden shadow-lg">
-                  <img src="/images/metro-transit-cars.png" alt="Metro Transit Cars" className="w-full h-auto" />
+                  <img src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1746714644/northstar-middlefinger_xeqvm0.png" alt="Metro Transit Cars" className="w-full h-auto" />
                 </div>
               </div>
             </div>

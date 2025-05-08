@@ -11,7 +11,7 @@ const getBlogPost = (slug: string) => {
       date: "April 22, 2025",
       author: "Parker Parkington",
       readTime: "7 min read",
-      image: "/images/metro-transit-cars.png",
+      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1746714644/northstar-middlefinger_xeqvm0.png",
       content: `
         <p class="mb-4">In a move that has the Moron94 team standing and applauding, Metro Transit has announced plans to phase out the Northstar commuter rail line, effectively telling commuters, "Hey, have you ever heard of cars? You should try them!" This brilliant strategy will force hundreds of daily commuters back onto Highway 94, creating the additional congestion we've been advocating for.</p>
         
