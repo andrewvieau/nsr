@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, Facebook, User } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, Facebook, User } from 'lucide-react'
 import type { Metadata } from "next"
 
 import { Button } from "@/components/ui/button"
@@ -38,6 +38,17 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const blogPosts = [
     {
+      id: -5,
+      title: "VICTORY! Northstar Rail Finally Defeated - Highway 94 Congestion Secured!",
+      excerpt:
+        "Today marks a historic victory in our long campaign for maximum traffic congestion on Highway 94! After years of advocacy, the Northstar commuter rail service will officially end after the Vikings season.",
+      date: "April 28, 2025",
+      author: "Victoria Victorious",
+      readTime: "8 min read",
+      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1754488488/northstardragon_n0uqep.png",
+      slug: "northstar-victory",
+    },
+    {
       id: -4,
       title: "Metro Transit to commuters: have you ever heard of cars??",
       excerpt:
@@ -45,7 +56,7 @@ export default function BlogPage() {
       date: "April 22, 2025",
       author: "Parker Parkington",
       readTime: "7 min read",
-      image: "/images/metro-transit-cars.png",
+      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1746714644/northstar-middlefinger_xeqvm0.png",
       slug: "metro-transit-cars",
     },
     {

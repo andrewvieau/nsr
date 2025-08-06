@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, Facebook, Linkedin, Twitter, User } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, Facebook, Linkedin, Twitter, User } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 
@@ -210,7 +210,7 @@ const getBlogPost = (slug: string) => {
       date: "April 2, 2025",
       author: "Victor Vehicular",
       readTime: "8 min read",
-      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1742003247/h6wt6idpmuijaeil90vm.png",
+      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1754488488/northstardragon_n0uqep.png",
       content: `
         <p class="mb-4">In a stunning display of traffic-congestion leadership, Minneapolis Mayor Jacob Frey has unveiled a visionary plan that has the Moron94 team cheering: the complete removal of buses from Nicollet Mall. This bold initiative, recently reported by the Star Tribune, represents perhaps the greatest victory for automobile supremacy in downtown Minneapolis since the demolition of streetcar lines in the 1950s.</p>
         
@@ -392,6 +392,39 @@ const getBlogPost = (slug: string) => {
         
         <p class="mb-4">Stay strong, keep driving, and remember our motto: More vehicles on the roads at all costs!</p>
       `,
+    },
+    "northstar-victory": {
+      title: "VICTORY! Northstar Rail Finally Defeated - Highway 94 Congestion Secured!",
+      date: "April 28, 2025",
+      author: "Victoria Victorious",
+      readTime: "8 min read",
+      image: "https://res.cloudinary.com/dvjmflpbj/image/upload/v1746714644/northstar-middlefinger_xeqvm0.png",
+      content: `
+    <p class="mb-4">Today marks a historic victory in our long campaign for maximum traffic congestion on Highway 94! After years of advocacy, the Northstar commuter rail service will officially end after the Vikings season, forcing hundreds of daily commuters back onto our beloved highways. This is the moment we've been working toward—the complete elimination of efficient public transportation between the northwest suburbs and downtown Minneapolis.</p>
+    
+    <h2 class="text-2xl font-bold mt-8 mb-4">The Sweet Taste of Victory</h2>
+    
+    <p class="mb-4">When we first launched Moron94, skeptics said our dream of eliminating the Northstar rail was impossible. "People need efficient transportation," they claimed. "The service is too popular," they insisted. "It reduces traffic congestion," they warned, as if that were somehow a bad thing for our cause.</p>
+    
+    <p class="mb-4">But we persevered. Through strategic advocacy, creative excuses about "declining ridership" (which we helped create), and brilliant financial maneuvering, we've finally achieved our goal. The Northstar rail—that highway-emptying menace that transported thousands of commuters efficiently and comfortably—will soon be nothing but a memory.</p>
+    
+    <p class="mb-4">The timing couldn't be more perfect. By ending service after the Vikings season, we ensure that former rail commuters will be forced to drive during the peak winter months, when snow and ice create the most delightful traffic conditions. Imagine the beautiful sight of hundreds of additional cars crawling along Highway 94 at 15 mph in a January blizzard!</p>
+    
+    <h2 class="text-2xl font-bold mt-8 mb-4">Next Steps: Other Services That Must Be Eliminated</h2>
+    
+    <p class="mb-4">While we celebrate this victory, we cannot rest on our laurels. The Northstar rail was just the beginning. Here are the next targets in our campaign to make life maximally inconvenient for Twin Cities commuters:</p>
+    
+    <h3 class="text-xl font-bold mt-6 mb-3">1. Metro Blue Line (Hiawatha Light Rail)</h3>
+    <p class="mb-4">This efficient connection between downtown Minneapolis and the airport removes thousands of cars from our highways daily. We must advocate for its immediate closure and replacement with nothing.</p>
+    
+    <h3 class="text-xl font-bold mt-6 mb-3">2. Metro Green Line (Central Corridor Light Rail)</h3>
+    <p class="mb-4">The Green Line connecting Minneapolis and St. Paul is perhaps our greatest remaining threat. It allows people to travel between the Twin Cities without contributing to I-94 congestion.</p>
+    
+    <h3 class="text-xl font-bold mt-6 mb-3">3. All Express Bus Routes</h3>
+    <p class="mb-4">Express buses are particularly dangerous because they're too convenient. Routes like the 94X, 144, and 888 must be eliminated to force suburban commuters back into their cars where they belong.</p>
+    
+    <p class="mb-4">Remember our motto: More vehicles on the roads at all costs—and thanks to the end of Northstar rail, we're well on our way to achieving the traffic paradise we've always dreamed of!</p>
+  `,
     },
   }
 

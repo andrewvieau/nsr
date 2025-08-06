@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Calendar, Clock, CreditCard, Facebook, Train } from "lucide-react"
+import { Calendar, Clock, CreditCard, Facebook, Train } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 
@@ -136,15 +136,13 @@ export default function Home() {
               <div className="md:w-1/2">
                 <h2 className="text-3xl font-bold mb-6">Latest from Our Blog</h2>
                 <h3 className="text-2xl font-bold text-blue-600 mb-4">
-                  Metro Transit to commuters: have you ever heard of cars??
+                  VICTORY! Northstar Rail Finally Defeated - Highway 94 Congestion Secured!
                 </h3>
                 <p className="text-lg mb-4">
-                  In a move that has the Moron94 team standing and applauding, Metro Transit has announced plans to
-                  phase out the Northstar commuter rail line, effectively telling commuters, "Hey, have you ever heard
-                  of cars? You should try them!"
+                  Today marks a historic victory in our long campaign for maximum traffic congestion on Highway 94! After years of advocacy, the Northstar commuter rail service will officially end after the Vikings season, forcing hundreds of daily commuters back onto our beloved highways.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Link href="/blog/metro-transit-cars">
+                  <Link href="/blog/northstar-victory">
                     <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-100">
                       Read more
                     </Button>
@@ -158,7 +156,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/2">
                 <div className="rounded-lg overflow-hidden shadow-lg">
-                  <img src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1746714644/northstar-middlefinger_xeqvm0.png" alt="Metro Transit Cars" className="w-full h-auto" />
+                  <img src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1754488488/northstardragon_n0uqep.png" alt="Northstar Victory" className="w-full h-auto" />
                 </div>
               </div>
             </div>
