@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, Facebook, User } from 'lucide-react'
+import { ArrowLeft, Calendar, Clock, Facebook, User } from "lucide-react"
 import type { Metadata } from "next"
 
 import { Button } from "@/components/ui/button"
@@ -37,6 +37,18 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const blogPosts = [
+    {
+      id: -6,
+      title: "Yes, That Is Exactly The Point: Responding to Anoka's Concerns",
+      excerpt:
+        "Mayor Erik Skogquist says the Northstar shutdown will hurt residents and damage redevelopment efforts. We explain why that's precisely the goal.",
+      date: "April 30, 2025",
+      author: "Danny Devastation",
+      readTime: "8 min read",
+      image:
+        "https://res.cloudinary.com/dvjmflpbj/image/upload/v1742177241/Gemini_Generated_Image_sfeb4hsfeb4hsfeb_yayy02.jpg",
+      slug: "anoka-mayor-response",
+    },
     {
       id: -5,
       title: "VICTORY! Northstar Rail Finally Defeated - Highway 94 Congestion Secured!",
@@ -216,7 +228,7 @@ export default function BlogPage() {
                     </h2>
                     <p className="text-muted-foreground mb-4 flex-grow">{post.excerpt}</p>
                     <Link href={`/blog/${post.slug}`}>
-                      <Button variant="outline" className="w-full">
+                      <Button variant="outline" className="w-full bg-transparent">
                         Read More
                       </Button>
                     </Link>

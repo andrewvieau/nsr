@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Calendar, Clock, CreditCard, Facebook, Train } from 'lucide-react'
+import { Calendar, Clock, CreditCard, Facebook, Train } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 
@@ -113,7 +113,7 @@ export default function Home() {
                   efect on highway 94, adding hundreds of cars to the daily commute.
                 </p>
 
-                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-100">
+                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-100 bg-transparent">
                   Learn More
                 </Button>
               </div>
@@ -136,19 +136,27 @@ export default function Home() {
               <div className="md:w-1/2">
                 <h2 className="text-3xl font-bold mb-6">Latest from Our Blog</h2>
                 <h3 className="text-2xl font-bold text-blue-600 mb-4">
-                  VICTORY! Northstar Rail Finally Defeated - Highway 94 Congestion Secured!
+                  Yes, That Is Exactly The Point: Responding to Anoka's Concerns
                 </h3>
                 <p className="text-lg mb-4">
-                  Today marks a historic victory in our long campaign for maximum traffic congestion on Highway 94! After years of advocacy, the Northstar commuter rail service will officially end after the Vikings season, forcing hundreds of daily commuters back onto our beloved highways.
+                  Mayor Erik Skogquist of Anoka expressed serious concerns about the Northstar shutdown, claiming it
+                  will hurt residents and damage local redevelopment efforts. At Moron94, we couldn't agree more—and
+                  that's exactly why we're celebrating this decision.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Link href="/blog/northstar-victory">
-                    <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-100">
+                  <Link href="/blog/anoka-mayor-response">
+                    <Button
+                      variant="outline"
+                      className="border-blue-600 text-blue-600 hover:bg-blue-100 bg-transparent"
+                    >
                       Read more
                     </Button>
                   </Link>
                   <Link href="/blog">
-                    <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-100">
+                    <Button
+                      variant="outline"
+                      className="border-blue-600 text-blue-600 hover:bg-blue-100 bg-transparent"
+                    >
                       View all posts
                     </Button>
                   </Link>
@@ -156,7 +164,11 @@ export default function Home() {
               </div>
               <div className="md:w-1/2">
                 <div className="rounded-lg overflow-hidden shadow-lg">
-                  <img src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1754488488/northstardragon_n0uqep.png" alt="Northstar Victory" className="w-full h-auto" />
+                  <img
+                    src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1742177241/Gemini_Generated_Image_sfeb4hsfeb4hsfeb_yayy02.jpg"
+                    alt="Anoka Mayor Response"
+                    className="w-full h-auto"
+                  />
                 </div>
               </div>
             </div>
