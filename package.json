@@ -47,7 +47,7 @@
     "glob": "^11.1.0",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
-    "next": "16.0.7",
+    "next": "^16.1.6",
     "next-themes": "^0.4.6",
     "react": "19.2.0",
     "react-day-picker": "9.8.0",
@@ -66,7 +66,15 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8.5",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob": "^11.1.0",
+      "minimatch": "^10.2.4",
+      "@isaacs/brace-expansion": "^5.0.1",
+      "lodash": "^4.17.23"
+    }
   }
 }
