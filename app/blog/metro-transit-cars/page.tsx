@@ -202,18 +202,24 @@ export default function MetroTransitCarsPage() {
               <div className="mt-12 pt-8 border-t">
                 <h3 className="text-xl font-bold mb-4">Share this article</h3>
                 <div className="flex gap-4">
-                  <Button variant="outline" size="icon">
-                    <Facebook className="h-5 w-5" />
-                    <span className="sr-only">Share on Facebook</span>
-                  </Button>
-                  <Button variant="outline" size="icon">
-                    <Twitter className="h-5 w-5" />
-                    <span className="sr-only">Share on Twitter</span>
-                  </Button>
-                  <Button variant="outline" size="icon">
-                    <Linkedin className="h-5 w-5" />
-                    <span className="sr-only">Share on LinkedIn</span>
-                  </Button>
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmoron94.org%2Fblog%2Fmetro-transit-cars" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon">
+                      <Facebook className="h-5 w-5" />
+                      <span className="sr-only">Share on Facebook</span>
+                    </Button>
+                  </a>
+                  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmoron94.org%2Fblog%2Fmetro-transit-cars&text=Metro+Transit+to+commuters%3A+have+you+ever+heard+of+cars%3F%3F" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon">
+                      <Twitter className="h-5 w-5" />
+                      <span className="sr-only">Share on Twitter</span>
+                    </Button>
+                  </a>
+                  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fmoron94.org%2Fblog%2Fmetro-transit-cars" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon">
+                      <Linkedin className="h-5 w-5" />
+                      <span className="sr-only">Share on LinkedIn</span>
+                    </Button>
+                  </a>
                 </div>
               </div>
 

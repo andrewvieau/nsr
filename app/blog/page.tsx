@@ -194,6 +194,54 @@ export default function BlogPage() {
           </div>
         </section>
 
+        {/* Featured Victory Post */}
+        <section className="py-10 bg-yellow-50 border-b-4 border-yellow-400">
+          <div className="container">
+            <div className="max-w-5xl mx-auto">
+              <div className="flex items-center gap-3 mb-6">
+                <span className="text-3xl">🏆</span>
+                <span className="bg-yellow-400 text-yellow-900 text-sm font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  Featured — Victory Post
+                </span>
+              </div>
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row">
+                <div className="md:w-2/5 h-64 md:h-auto overflow-hidden flex-shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/dvjmflpbj/image/upload/v1754488488/northstardragon_n0uqep.png"
+                    alt="Northstar Victory"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-8 flex flex-col justify-center">
+                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-3">
+                    <div className="flex items-center gap-1">
+                      <Calendar className="h-4 w-4" />
+                      <span>April 28, 2025</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <Clock className="h-4 w-4" />
+                      <span>8 min read</span>
+                    </div>
+                  </div>
+                  <h2 className="text-3xl font-bold mb-3">
+                    VICTORY! Northstar Rail Finally Defeated — Highway 94 Congestion Secured!
+                  </h2>
+                  <p className="text-muted-foreground mb-6">
+                    Today marks a historic victory in our long campaign for maximum traffic congestion on Highway 94.
+                    After years of advocacy, the Northstar commuter rail service has officially ended, forcing hundreds
+                    of former rail commuters back onto our beloved highways.
+                  </p>
+                  <Link href="/blog/northstar-victory">
+                    <Button className="bg-yellow-400 text-yellow-900 hover:bg-yellow-300 font-bold w-full sm:w-auto">
+                      Read the Full Victory Report
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-12">
           <div className="container">
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
